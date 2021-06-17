@@ -1,0 +1,9 @@
+{
+	"name": "DFSimple001",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "64d8d019-5e2e-4adf-94a9-474af18a5847",
+		"tenantId": "e9342db4-80f0-43fa-8bf4-a098f9342037"
+	}
+}
