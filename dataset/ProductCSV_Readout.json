@@ -19,7 +19,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@dataset().XYZ_1",
+					"value": "ZYX",
 					"type": "Expression"
 				},
 				"container": "csvfiles"
