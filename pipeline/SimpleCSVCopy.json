@@ -1,0 +1,9 @@
+{
+	"name": "SimpleCSVCopy",
+	"properties": {
+		"folder": {
+			"name": "SimpleCSV"
+		},
+		"annotations": []
+	}
+}
