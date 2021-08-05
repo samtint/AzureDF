@@ -103,7 +103,10 @@
 				"outputs": [
 					{
 						"referenceName": "ProductCSV_Readout",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"XYZ_1": "DayOfYear + DayOfMonth"
+						}
 					}
 				]
 			}
