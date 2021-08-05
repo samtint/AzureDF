@@ -18,10 +18,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "string(dayOfyear)",
-					"type": "Expression"
-				},
 				"container": "csvfiles"
 			},
 			"columnDelimiter": ",",
