@@ -5,6 +5,11 @@
 			"referenceName": "BlobOutput",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"XYZ_1": {
+				"type": "String"
+			}
+		},
 		"folder": {
 			"name": "StorageGen2"
 		},
@@ -14,7 +19,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "dayOfYear + dayOfMonth + dayOfyear",
+					"value": "string(dayOfyear)",
 					"type": "Expression"
 				},
 				"container": "csvfiles"
