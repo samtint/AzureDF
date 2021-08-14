@@ -1,0 +1,24 @@
+{
+	"name": "SaleAll",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobOutput",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "StorageGen2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "csvfiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
