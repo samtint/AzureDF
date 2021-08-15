@@ -1,0 +1,24 @@
+{
+	"name": "Dosomething1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "SaleAll",
+						"type": "DatasetReference"
+					},
+					"name": "AsItis"
+				}
+			],
+			"sinks": [],
+			"transformations": [
+				{
+					"name": "OrderLineTotal"
+				}
+			],
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tlimit: 100,\n\tignoreNoFilesFound: false) ~> AsItis\nAsItis derive(Processdate = currentDate()) ~> OrderLineTotal"
+		}
+	}
+}
